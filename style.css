@@ -12,6 +12,54 @@ a {
     text-decoration: none;
 }
 
-ul {
 
+/* Utilities */
+:root {
+    --dominant-color: #00C2FF;
+    --secondary-color: #005593;
+    --accent-color: #ffae00;
+}
+
+.hide {
+    display: none;
+}
+
+/* layout */
+.flex-between-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col-between {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* spacing */
+.p-1 {
+    padding: 1em;
+}
+
+.p-2 {
+    padding: 2em;
+}
+
+.p-3 {
+    padding: 3em;
+}
+
+.p-xl {
+    padding: 5em;
+}
+
+/* Navigation Bar */
+#navigation {
+    background: var(--secondary-color);
+    height: 70px;
 }
